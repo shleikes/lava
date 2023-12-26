@@ -1,7 +1,7 @@
 ---
-title: Subscription Module
+title: Plan Module
 ---
-# `x/plans`
+# x/plans
 
 ## Abstract
 
