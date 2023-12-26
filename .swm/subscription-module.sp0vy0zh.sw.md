@@ -19,6 +19,25 @@ This document is focuses on the plans' technical aspects and does not include cu
 
 A plan consists of limitations that are associated with a subscription. A consumer can only use Lava when they purchase a subscription that is subject to the limitations set by the plan. A plan is defined as follows:
 
+<SwmSnippet path="/x/plans/types/plan.pb.go" line="164">
+
+---
+
+&nbsp;
+
+```go
+func (m *Plan) GetType() string {
+	if m != nil {
+		return m.Type
+	}
+	return ""
+}
+```
+
+---
+
+</SwmSnippet>
+
 <SwmSnippet path="/x/plans/types/plan.pb.go" line="77">
 
 ---
